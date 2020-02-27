@@ -1,4 +1,5 @@
 /* GENERAL SETTINGS*/
+
 * {
   margin: 0;
   padding: 0;
@@ -16,4 +17,52 @@ body {
   content: '';
   display: table;
   clear: both;
+}
+
+/* HEADER */
+
+.header-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 84px;
+  width: 100%;
+  background-color: #f5f8fa;
+  border-bottom: 1px solid #33475b;
+  z-index: 5;
+}
+
+.header-top {
+  height: 91px;
+  margin-top: 91px;
+
+}
+
+.header-jumbo {
+  position: relative;
+  height: 749px;
+  background-color: #fff3ee;
+  background-image: url('../img/jumbotron.png');
+  background-position: 100% 77%;
+  background-size: 82%;
+  background-repeat: no-repeat;
+}
+
+.border-jumbo {
+  position: absolute;
+  bottom: 0;
+  background-color: #afebe4;
+  height: 12%;
+  width: 100%;
+  border-top: 3px solid #33475b;
+  border-bottom: 3px solid #33475b;
+  z-index: 1;
+}
+
+/* MAIN */
+
+.main-top {
+  height: 525px;
+  background-color: #f5f8fa;
+  z-index: 2;
 }
