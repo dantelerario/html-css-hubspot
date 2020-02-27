@@ -34,6 +34,13 @@ body {
   text-align: center;
 }
 
+.right-border {
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.bottom-border {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
 
 /* HEADER */
 
@@ -81,6 +88,7 @@ main {
   background-color: #f5f8fa;
 }
 
+/* MAIN TOP */
 .main-top {
   height: 525px;
   padding: 50px;
@@ -91,6 +99,7 @@ main {
   height: auto;
 }
 
+/* MAIN-MID */
 .main-mid-row1 {
   width: 1080px;
   height: 300px;
@@ -119,6 +128,7 @@ main {
   margin-right: 0;
 }
 
+/* MAIN-MID2 */
 .main-mid2 {
   height: 908px;
   width: 100%;
@@ -133,4 +143,24 @@ main {
   width: 70%;
   padding-top: 50px;
   font-size: 120%;
+}
+
+.main-mid2-row2 {
+  width: 65%;
+  height: auto;
+  margin: 50px auto;
+}
+
+.main-mid2-row2-row1 {
+
+}
+
+.main-mid2-row2-row2 {
+
+}
+
+.main-mid2-row2-row-div {
+  text-align: center;
+  width: 270px;
+  height: 194px;
 }
