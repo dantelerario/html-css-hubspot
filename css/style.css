@@ -42,6 +42,19 @@ body {
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
+.btn {
+  padding: 5px 30px;
+  color: #ff7a59;
+  border-radius: 5px;
+  border: 1px solid #ff7a59;
+}
+
+.btn-orange {
+  color: white;
+  background-color: #ff7a59;
+  border-radius: 5px;
+}
+
 /* HEADER */
 
 .header-fixed {
@@ -53,6 +66,52 @@ body {
   background-color: #f5f8fa;
   border-bottom: 1px solid #33475b;
   z-index: 5;
+  color: #33475b;
+  padding: 10px 0;
+}
+
+.header-fixed-left {
+  display: inline-block;
+  width: 350px;
+  height: auto;
+  text-align: left;
+  margin: 20px 0 25px 350px;
+}
+
+.header-fixed-right {
+  display: inline-block;
+  width: 450px;
+  height: auto;
+  text-align: right;
+  margin: 20px 0 25px 500px;
+  padding-right: 25px;
+}
+
+.header-fixed-left  a {
+  text-decoration: none;
+  color: #33475b;
+  padding: 3px 20px 3px 20px;
+  font-size: 120%;
+}
+
+.header-fixed-right  a {
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+  margin-right: 20px;
+  font-size: 120%;
+}
+
+.header-fixed-right i {
+  margin-right: 20px;
+}
+
+.header-fixed a i {
+  padding-left: 5px;
+  padding-right: 10px;
+}
+
+.header-fixed a:last-child {
+  border-left: 1px solid #33475b;
 }
 
 .header-top {
@@ -163,4 +222,40 @@ main {
   text-align: center;
   width: 270px;
   height: 194px;
+}
+
+/* MAIN-BOTTOM */
+
+.main-bottom1 {
+  width: auto;
+  height: 285px;
+  background: #FFF;
+}
+
+.main-bottom2 {
+  width: auto;
+  height: 703px;
+  background: #FFF;
+}
+
+/* FOOTER */
+
+footer {
+  height: 750px;
+  background: #33475b;
+  padding-top: 150px;
+}
+
+.footer-top {
+  height: 385px;
+}
+
+.footer-nav {
+  height: 46px;
+  padding: 36px 0;
+}
+
+.footer-bottom {
+  height: 77px;
+  padding: 36px 0;
 }
