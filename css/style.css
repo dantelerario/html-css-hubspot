@@ -98,6 +98,13 @@ body {
   padding: 20px 25px;
 }
 
+.w-60 {
+  width: 60%;
+}
+
+.w-25 {
+  width: 25%;
+}
 /* HEADER */
 
 .header-fixed {
@@ -425,6 +432,40 @@ main {
   width: auto;
   height: 285px;
   background: #FFF;
+  color: #33475b;
+}
+
+.main-bottom-row1 {
+  height: auto;
+}
+
+.main-bottom-row1-div-left {
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 30%;
+}
+
+.main-bottom-row1-div-left span {
+  margin-top: 50px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  width: 200px;
+  padding-bottom: 25px;
+}
+
+.main-bottom-row1-div-right {
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 60%
+}
+
+.main-bottom-row1-div-right .box img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  padding: 30px 30px 5px 30px;
+  margin-left: 100px;
 }
 
 .main-bottom2 {
