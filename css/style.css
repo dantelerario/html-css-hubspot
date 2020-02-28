@@ -84,6 +84,12 @@ body {
   border: 1px solid #ff7a59;
   text-decoration: none;
   font-size: 120%;
+  opacity: 1;
+  transition: 0.4s;
+}
+
+.btn-hover:hover {
+  background-color: rgba(255, 122, 89, 0.1);
 }
 
 .btn-white {
@@ -102,6 +108,12 @@ body {
   border-radius: 5px;
   text-decoration: none;
   font-size: 120%;
+  opacity: 1;
+  transition: 0.4s;
+}
+
+.btn-orange:hover {
+  opacity: 0.3;
 }
 
 .btn-bigger {
@@ -196,11 +208,17 @@ body {
 }
 
 .header-top ul {
-  margin-left: 665px;
+  margin-left: 660px;
   margin-top: 32px;
   text-align: right;
   color: #33475b;
   font-weight: 500;
+}
+
+.header-top li a {
+  text-decoration: none;
+  color: #33475b;
+  font-weight: 700;
 }
 
 .header-top li {
@@ -219,6 +237,8 @@ body {
   margin-left: 100px;
   margin-top: 25px;
 }
+
+/* TESTING DROPDOWN MENU */
 
 .header-jumbo {
   position: relative;
@@ -578,6 +598,10 @@ footer {
   height: 46px;
   padding: 36px 0;
   text-align: center;
+}
+
+.box-footer > a:hover {
+  color: #33475b;
 }
 
 .languages-container {
