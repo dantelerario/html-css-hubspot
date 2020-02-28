@@ -139,6 +139,13 @@ body {
 .margin-right10 {
   margin-right: 10px;
 }
+
+/* DEBUG: margin to fix */
+.backgroundhover:hover {
+  background: rgba(127, 209, 222, 0.3);
+  margin: 0;
+}
+/* DEBUG: margin to fix */
 /* HEADER */
 
 .header-fixed {
