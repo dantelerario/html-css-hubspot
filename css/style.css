@@ -143,8 +143,9 @@ body {
 /* DEBUG: margin to fix */
 .backgroundhover:hover {
   background: rgba(127, 209, 222, 0.3);
-  margin: 0;
+  margin: 10px;
 }
+
 /* DEBUG: margin to fix */
 /* HEADER */
 
@@ -258,10 +259,10 @@ body {
 .menu-dropped {
   position: absolute;
   display: none;
-  top: 30px;
+  top: 20px;
   right: -375px;
-  width: 670px;
-  height: 350px;
+  width: 717px;
+  height: 410px;
   background: #fff;
   border: 1px solid rgba(51, 71, 91, 0.5);
   border-radius: 5px;
@@ -269,7 +270,7 @@ body {
 
 .menu-dropped:after, .menu-dropped:before {
   bottom: 100%;
-	left: 41.8%;
+	left: 45.5%;
 	border: solid transparent;
 	content: " ";
 	height: 0;
@@ -281,19 +282,24 @@ body {
 .menu-dropped:after {
   border-color: rgba(255, 255, 255, 0);
 	border-bottom-color: #fff;
-	border-width: 10px;
-	margin-left: -10px;
+	border-width: 7px;
+	margin-left: -7px;
 }
 .menu-dropped:before {
   border-color: rgba(51, 71, 91, 0);
 	border-bottom-color: rgba(51, 71, 91, 0.5);
-	border-width: 11.5px;
-	margin-left: -11.5px;
+	border-width: 8px;
+	margin-left: -8px;
 }
 
 .menu-drop:hover .menu-dropped {
   display: block;
   z-index: 10;
+}
+
+.menu-dropped-row {
+  margin: 10px 0 10px 0;
+  padding: 0 20px 0 20px;
 }
 
 .menu-dropped-row > span {
@@ -304,20 +310,26 @@ body {
   font-weight: 400;
 }
 
+.menu-dropped-row-mid {
+  padding: 0 20px 0 20px;
+}
 .menu-dropped-box {
-  width: calc(100% / 3);
+  display: inline-block;
+  width: 30%;
+  margin: 10px;
+  padding: 20px;
 }
 
 .line-menu-drop:after {
   display: block;
   content: '';
   height: 5px;
-  margin-top: 20px;
-  margin-left: 30px;
   border-bottom: 2px solid rgba(51,71,91, 0.2);
   top: 28px;
   width: 600px;
+  margin: 0 20px 0 40px;
 }
+
 
 /* TESTING DROPDOWN MENU */
 
