@@ -140,6 +140,12 @@ body {
   margin-right: 10px;
 }
 
+.padding10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
 /* DEBUG: margin to fix */
 .backgroundhover:hover {
   background: rgba(127, 209, 222, 0.3);
@@ -309,7 +315,7 @@ body {
   top: 20px;
   right: -191px;
   width: 717px;
-  height: 410px;
+  height: 580px;
   background: #fff;
   border: 1px solid rgba(51, 71, 91, 0.5);
   border-radius: 4px;
@@ -354,7 +360,7 @@ body {
   top: 20px;
   right: -86px;
   width: 717px;
-  height: 410px;
+  height: 170px;
   background: #fff;
   border: 1px solid rgba(51, 71, 91, 0.5);
   border-radius: 4px;
@@ -435,7 +441,6 @@ body {
   z-index: 10;
 }
 
-
 .menu-dropped-row {
   margin: 10px 0 10px 0;
   padding: 0 20px 0 20px;
@@ -449,12 +454,35 @@ body {
   font-weight: 400;
 }
 
+.menu-dropped-box1 > span {
+  font-weight: 400;
+}
+
+.menu-dropped-box2 > span {
+  font-weight: 400;
+}
+
 .menu-dropped-row-mid {
   padding: 0 20px 0 20px;
 }
+
 .menu-dropped-box {
   display: inline-block;
   width: 30%;
+  margin: 10px;
+  padding: 20px;
+}
+
+.menu-dropped-box1 {
+  display: inline-block;
+  width: 30%;
+  margin: 10px;
+  padding: 8px;
+}
+
+.menu-dropped-box2 {
+  display: inline-block;
+  width: 45%;
   margin: 10px;
   padding: 20px;
 }
