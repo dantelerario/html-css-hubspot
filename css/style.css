@@ -155,6 +155,11 @@ body {
   margin: 10px;
 }
 
+.mainmidhover:hover {
+  box-shadow: 5px 5px 8px 5px rgba(51, 71, 91, 0.3);
+  transform: scale(1.020);
+}
+
 /* HEADER */
 
 .header-fixed {
