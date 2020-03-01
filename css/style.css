@@ -145,14 +145,16 @@ body {
   padding-bottom: 10px;
 }
 
+.paddingfix {
+  padding: 15px 0 15px 0;
+  text-align: left;
+}
 
-/* DEBUG: margin to fix */
 .backgroundhover:hover {
   background: rgba(127, 209, 222, 0.3);
   margin: 10px;
 }
 
-/* DEBUG: margin to fix */
 /* HEADER */
 
 .header-fixed {
@@ -225,7 +227,7 @@ body {
   margin: 0 auto;
 }
 
-.header-top ul {
+#header-topul {
   margin-left: 660px;
   margin-top: 32px;
   text-align: right;
@@ -400,12 +402,13 @@ body {
 .menu-drop3 {
   position: relative;
 }
+
 .menu-dropped3 {
   position: absolute;
   display: none;
   top: 20px;
   right: 1px;
-  width: 717px;
+  width: 645px;
   height: 410px;
   background: #fff;
   border: 1px solid rgba(51, 71, 91, 0.5);
@@ -439,6 +442,27 @@ body {
 .menu-drop3:hover .menu-dropped3 {
   display: block;
   z-index: 10;
+}
+
+.menu-dropped-box3 {
+  width: 30%;
+  padding-top: 20px;
+  margin-left: 10px;
+}
+
+.menu-dropped-box3 h3 {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.menu-dropped-box3 li {
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(51,71,91);
+  text-align: left;
+  width: 150px;
+  margin: 10px;
 }
 
 .menu-dropped-row {
